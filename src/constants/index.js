@@ -22,7 +22,13 @@ import {
     carrent,
     jobit,
     tripguide,
+    graviti,
+    chatters,
     threejs,
+    tnit,
+    huygensLab,
+    precollege,
+    ecommerce
 } from "../assets";
 
 export const navLinks = [
@@ -46,7 +52,7 @@ const services = [
         icon: web,
     },
     {
-        title: "React Native Developer",
+        title: "NextJs Developer",
         icon: mobile,
     },
     {
@@ -116,37 +122,37 @@ const technologies = [
 
 const experiences = [
     {
-        title: "React.js Developer",
-        company_name: "Starbucks",
-        icon: starbucks,
-        iconBg: "#383E56",
-        date: "March 2020 - April 2021",
+        title: "Full Stack Developer",
+        company_name: "TNIT Services",
+        icon: tnit,
+        iconBg: "#ffffff",
+        date: "Nov 2023 - Feb 2024",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+            "Spearheaded the development and implementation of event synchronization and event checking features for iCal Links, seamlessly connecting booking management system with external calendars, resulting in a 30% increase in operational efficiency.",
+            "BeingStay acts as Hotel and Villa Booking application with admin portal for managing the Portal.",
             "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
+            // "Participating in code reviews and providing constructive feedback to other developers.",
         ],
     },
     {
-        title: "React Native Developer",
-        company_name: "Tesla",
-        icon: tesla,
-        iconBg: "#E6DEDD",
-        date: "Jan 2021 - Feb 2022",
+        title: "Frontend Developer",
+        company_name: "Huygens Lab - Growth Farms",
+        icon: huygensLab,
+        iconBg: "#ffffff",
+        date: "Feb 2024 - May 2024",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
+            "Led the primary project focusing on resolving performance and functionality issues with the client’s website. The website is built on Next.js utilizing Tailwind CSS, Material UI, ShadcnUI, and AWS.",
+            "Oversaw daily updates and maintenance of client’s websites, addressing SEO, pop-up modifications, and design/layout changes as required.",
+            "Essentially, there website operated as a platform where students could choose their grade, subject, and topic to practice solving practice questions. Additionally, they offer access to video lectures corresponding to the selected topic.",
+            // "Participating in code reviews and providing constructive feedback to other developers.",
         ],
     },
     {
-        title: "Web Developer",
-        company_name: "Shopify",
-        icon: shopify,
-        iconBg: "#383E56",
-        date: "Jan 2022 - Jan 2023",
+        title: "NextJs Developer",
+        company_name: "Graviti",
+        icon: graviti,
+        iconBg: "#2e2e2e",
+        date: "Jul 2024 - Present",
         points: [
             "Developing and maintaining web applications using React.js and other related technologies.",
             "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -154,19 +160,19 @@ const experiences = [
             "Participating in code reviews and providing constructive feedback to other developers.",
         ],
     },
-    {
-        title: "Full stack Developer",
-        company_name: "Meta",
-        icon: meta,
-        iconBg: "#E6DEDD",
-        date: "Jan 2023 - Present",
-        points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
-        ],
-    },
+    // {
+    //     title: "Full stack Developer",
+    //     company_name: "Meta",
+    //     icon: meta,
+    //     iconBg: "#E6DEDD",
+    //     date: "Jan 2023 - Present",
+    //     points: [
+    //         "Developing and maintaining web applications using React.js and other related technologies.",
+    //         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+    //         "Implementing responsive design and ensuring cross-browser compatibility.",
+    //         "Participating in code reviews and providing constructive feedback to other developers.",
+    //     ],
+    // },
 ];
 
 const testimonials = [
@@ -198,16 +204,16 @@ const testimonials = [
 
 const projects = [
     {
-        name: "Car Rent",
+        name: "Ecomerce Store and Admin Protal",
         description:
-            "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+            "Empoweredusers to explore a diverse range of carefully selected items, providing detailed specifications for informed decision-making. Collaborated with the e-commerce admin panel to introduce 20+ cutting-edge products monthly, ensuring a continuously evolving shopping experience that can increase user engagement by 10% and repeat purchases by 10%. Transformed desires into tangible results, showcasing a dedication to innovation, consumer empowerment, and seamless transactions.",
         tags: [
             {
-                name: "react",
+                name: "Next.JS",
                 color: "blue-text-gradient",
             },
             {
-                name: "mongodb",
+                name: "PostgresSql",
                 color: "green-text-gradient",
             },
             {
@@ -215,50 +221,58 @@ const projects = [
                 color: "pink-text-gradient",
             },
         ],
-        image: carrent,
-        source_code_link: "https://github.com/",
+        image: ecommerce,
+        source_code_link: "https://github.com/DJMONSTER0212/E-commerce-Admin",
     },
     {
-        name: "Job IT",
+        name: "Chatters - A real Time chat appliation",
         description:
-            "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+            "Engineered a real-time chat application with robust user authentication and authorization; enabled seamless user search and instant connectivity, resulting in a 10% increase in user engagement within the first quarter.",
         tags: [
             {
                 name: "react",
                 color: "blue-text-gradient",
             },
             {
-                name: "restapi",
+                name: "MongoDB",
                 color: "green-text-gradient",
             },
             {
-                name: "scss",
+                name: "Node.Js",
                 color: "pink-text-gradient",
             },
+            {
+                name: "Socket.IO",
+                color: "text-[#EBF400]"
+            }
         ],
-        image: jobit,
-        source_code_link: "https://github.com/",
+        image: chatters,
+        source_code_link: "https://github.com/DJMONSTER0212/Chat-App",
     },
     {
-        name: "Trip Guide",
+        name: "precollege",
         description:
             "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
         tags: [
             {
-                name: "nextjs",
+                name: "Next.Js",
                 color: "blue-text-gradient",
             },
             {
-                name: "supabase",
+                name: "Tailwind Css",
                 color: "green-text-gradient",
             },
             {
-                name: "css",
+                name: "Shadcn\\ui",
                 color: "pink-text-gradient",
             },
+            {
+                name: "Node.js",
+                color: "text-[#EBF400]",
+            },
         ],
-        image: tripguide,
-        source_code_link: "https://github.com/",
+        image: precollege,
+        source_code_link: "https://precollge.in",
     },
 ];
 

@@ -25,13 +25,25 @@ import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
+import tnit from "./tnitLogo.png"
+import huygensLab from "./huygensLab.jpeg"
+import graviti from "./graviti.png"
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 import DJLOGO from "./logo-no-background.svg"
 import logo1 from "./logo.jpg"
+import ecommerce from "./Ecommere.png"
+import precollege from "./precollege.png"
+import chatters from "./chatters.png"
 export {
+  graviti,
+  chatters,
+  ecommerce,
+  precollege,
+  tnit,
+  huygensLab,
   DJLOGO,
   logo1,
   logo,
